@@ -1,0 +1,48 @@
+#container {
+    position: fixed;
+    top: 20%;
+    left: 2%;
+    transform: translate(-50%, -10%);
+    color: white;
+    width: 280px;
+    height: 560px;
+    background-color: rgba(29, 29, 29, 0.944);
+    font-size: 24px;
+    font-family: 'Oswald', sans-serif;
+    padding-left: 20px;
+    padding-top: 30px;
+    transform: matrix3d(1,0,0.00,.00029,0.00,1,0.00,0,0,0,1,0,0,0,0,1);
+}
+
+#container:hover {
+    transform: matrix3d(1,0,0.00,.00015,0.00,1,0.00,0,0,0,1,0,0,0,0,1);
+}
+
+input {
+    color: lightgray;
+    font-family: 'Oswald', sans-serif;
+    width: 170px;
+    left: 10%;
+    margin-top: 10px;
+    margin-left: 40px;
+    font-size: 20px;
+    background-color: rgba(17, 17, 17, 0.0);
+    border-radius: 7px;
+    border: black;
+  } 
+
+input:hover {
+    color: rgba(0, 127, 255, 0.699);
+ } 
+
+
+#baslik{
+    position: fixed;
+    top: -2%;
+    left: 30%;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    border-color: darkgray;
+}
+
+  
